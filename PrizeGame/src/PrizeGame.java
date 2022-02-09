@@ -97,7 +97,7 @@ public class PrizeGame {
 			if(ai == 1) {
 				playing = true;
 			}
-			if(ai == 2) {
+			if(ai == 2) { // Enter 2 to exit, or if the user enters anything else, the playing loop does not renew itself.
 				System.out.println("Thanks for playing!\n");
 			}
 		}
